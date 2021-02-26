@@ -26,4 +26,11 @@ public class Post {
     private boolean isFavorite;
     private int posrponedId;
 
+    public int getOwnerId() {
+        return ownerId;
+    }
+
+    public int getId() {
+        return id;
+    }
 }
